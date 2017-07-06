@@ -1,29 +1,29 @@
 /***
- * *Basic Reset
- * ***/
+*   Basic Reset
+***/
 *
-* {
-  * margin: 0;
-  * padding: 0;
-  * }
-  *
-  * h1, h2, h3, h4, h5, h6 { font-weight: normal; }
-  *
-  * img
-  * {
-    * max-width: 100%;
-    * vertical-align: middle;
-    * }
-    *
-    * body
-    * {
-      * font: 400 16px 'Lato', sans-serif;
-      * color: #ecf0f1;
-      * }
-      *
-      */***
-      *Typography
-      ***/
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+img
+{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+body
+{
+  font: 400 16px 'Lato', sans-serif;
+  color: #ecf0f1;
+}
+
+/***
+*   Typography
+***/
 
 .heavy-weight
 {
@@ -35,13 +35,13 @@
 }
 
 /***
- * *Layout
- * ***/
+*   Layout
+***/
 
 
 /***
- * *Links
- * ***/
+*   Links
+***/
 
 a,
 a:hover
@@ -50,49 +50,49 @@ a:hover
   text-decoration: none;
 }
 /***
- * *Custom Style
- * ***/
+*   Custom Style
+***/
 .site
 {
   width: 100vw;
   height: 100vh;
   background-image: url('../images/blue_optimized.jpg');
-    background-position: center center;
-      background-repeat: no-repeat;
-        background-attachment: fixed;
-          background-size: cover;
-            background-color: #000;
-              position: relative;
-            }
-            .site-header
-            {
-              float: left;
-                padding: .25em;
-              }
-              .logo
-              {
-                font-size: 2em;
-              }
-              .site-footer
-              {
-                float: right;
-                padding: .5em;
-                font-size: 1.5em;
-              }
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  position: relative;
+}
+.site-header
+{
+  float: left;
+  padding: .25em;
+}
+.logo
+{
+  font-size: 2em;
+}
+.site-footer
+{
+  float: right;
+    padding: .5em;
+    font-size: 1.5em;
+}
 
-              @media (min-width: 800px)
-              {
-                .uber-light-weight
-                {
-                  font-weight: 100;
-                }
-                .logo
-                {
-                  font-size: 4em;
-                }
-                .site-footer
-                {
-                  padding: 1em;
-                  font-size: 2em;
-                }
-              }
+@media (min-width: 800px)
+{
+  .uber-light-weight
+  {
+    font-weight: 100;
+  }
+  .logo
+  {
+    font-size: 4em;
+  }
+  .site-footer
+  {
+    padding: 1em;
+    font-size: 2em;
+  }
+}
